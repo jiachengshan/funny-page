@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>给你看个东西</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: black;
+      color: white;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 15vw;
+      text-align: center;
+      animation: shake 0.15s infinite;
+    }
+
+    @keyframes shake {
+      0%   { transform: translate(5px, 5px) rotate(0deg); }
+      25%  { transform: translate(-5px, 3px) rotate(-3deg); }
+      50%  { transform: translate(4px, -5px) rotate(3deg); }
+      75%  { transform: translate(-3px, -3px) rotate(-2deg); }
+      100% { transform: translate(5px, 5px) rotate(0deg); }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>😂 你是傻子 😂</h1>
+</body>
+</html>
